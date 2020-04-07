@@ -124,8 +124,8 @@ map <- data_states %>%
                                label.position = 'bottom')) +
     transition_time(year) +
     labs(title = 'Annual beer production in the United States',
-         subtitle = 'Standard deviation from state mean across all years. \nYear: {as.integer(frame_time)}',
-         caption = 'Geometries: US Census Bureau, \nData: Alcohol and Tobacco Tax and Trade Bureau')
+         subtitle = 'Standard deviation from state mean across all years \nYear: {as.integer(frame_time)}',
+         caption = 'Geometries: US Census Bureau \nData: Alcohol and Tobacco Tax and Trade Bureau')
 
 # Call and save animation
 map_anm <- animate(map) 
